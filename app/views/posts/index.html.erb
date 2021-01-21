@@ -15,4 +15,8 @@
 </ul>
 
 <%= link_to "New Post", new_post_path %>
-<%= button_to "logout", destroy_user_session_path, method: :delete  %>
+<% if user_signed_in? %>
+  <%= button_to "logout", destroy_user_session_path, method: :delete  %>
+<% else %>
+  <%= button_to "sign-in", new_user_session_path %>
+<% end %>

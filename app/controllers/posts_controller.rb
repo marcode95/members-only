@@ -1,9 +1,8 @@
 class PostsController < ApplicationController
-
-  before_action :authenticate_user!, only: [:new, :create]
+  before_action :authenticate_user!, only: %i[new create]
 
   def index
-    @posts = Post.all    
+    @posts = Post.all
   end
 
   def new
@@ -26,6 +25,7 @@ class PostsController < ApplicationController
   end
 
   private
+
   def post_params
     params.require(:post).permit(:title, :body)
   end
