@@ -4,8 +4,7 @@ Members Only is a basic rails project about implementing the devise gem. Only si
 
 ## Live demo
 
-🔗 [PRO CON website](https://raw.githack.com/marcode95/HTML-CSS-capstone/feature/index.html)
-🔗 [PRO CON website search page](https://raw.githack.com/marcode95/HTML-CSS-capstone/feature/search-results.html)
+🔗 [Members Only](https://protected-hollows-95386.herokuapp.com/)
 
 ## Built With
 
@@ -14,27 +13,29 @@ Members Only is a basic rails project about implementing the devise gem. Only si
 - SQLite3
 - VScode
 
+## Extra Ruby gems
+
+- devise
+
 ## Getting Started
 
-To get a local copy up and running follow these simple example steps.
+**To get this project set up on your local machine, follow these simple steps:**
 
-### Prerequisites
-
-Webbrowser and access to internet
-
-### Install
-
-1) [Download](Clone the repository to your machine)
-
-```sh
-$ git clone https://github.com/marcode95/HTML-CSS-capstone/tree/feature
-```
-
-2) Navigate to the project folder and execute the "index.html" file.
-
-### Usage
-
-Just navigate through the page.
+**Step 1**<br>
+Navigate through the local folder where you want to clone the repository and run
+`git clone https://github.com/marcode95/members-only`.<br>
+**Step 2**<br>
+Run `cd microverse-members-only`.<br>
+**Step 3**<br>
+Run `bundle install` to install the gems from the `Gemfile`.<br>
+**Step 4**<br>
+Run `yarn install` to install the packages from the `package.json` file.<br>
+**Step 5**<br>
+Run `rake db:migrate` to create you local database.
+**Step 6**<br>
+Run `rails serve` to start the rails server.
+**Step 7**<br>
+You can navigate to `http://localhost:3000/` to see your application running<br>
 
 ## Authors
 
@@ -42,18 +43,8 @@ Just navigate through the page.
 
 - Github: [@marcode95](https://github.com/marcode95)
 
-
-## 🤝 Contributing
-
-Contributions, issues and feature requests are welcome!
-
-Feel free to check the [issues page](issues/).
-
 ## Show your support
 
 Give a ⭐️ if you like this project!
 
-## Acknowledgments
-
-All the credits for [design](https://www.behance.net/gallery/24796463/ZATTIX) go to [Mohammed Awad](https://www.behance.net/M_Awad).
 
